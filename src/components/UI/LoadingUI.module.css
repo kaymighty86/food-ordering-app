@@ -1,0 +1,11 @@
+.loadingUI{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.loadingUI img{
+    width: 7rem;
+    height: auto;
+    /* transform: translateY(10rem); */
+}

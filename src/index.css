@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Lato:wght@400;700&display=swap');
+
+/*NOTE!: color-theme is a custom attribute created by me to use it to switch root color variables*/
+:root[color-theme='light']{
+  --background: #fdfee0;
+  --text: #636363;
+  --accent1: #ffb025;
+  --accent2: #121212;
+  --muted: #ffff;
+}
+
+:root[color-theme='dark']{
+  --background: #575450;
+  --text: #b7b7b7;
+  --accent1: #fd9f1a;
+  --accent2: white;
+  --muted: #1b1a19;
+}
+
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background);
+}
+
+a{
+  text-decoration: none;
+  color: var(--accent1);
+}
+
+
+h1,h2,h3,p{
+  margin: 0rem;
+  padding: 0rem;
+}
+
+h1{
+  color: var(--accent1);
+}
+
+h2{
+  color: var(--accent2);
+}
+
+h3{
+  color: var(--muted);
+}
+
+p{
+  color: var(--text)
+}
+
+/* button{
+  background-color: var(--accent1);
+  color: var(--accent2);
+} */

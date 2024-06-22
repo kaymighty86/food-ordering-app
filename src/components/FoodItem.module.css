@@ -1,0 +1,50 @@
+.foodItem{
+    max-width: 14rem;
+    height: 26rem;
+    background-color: var(--muted);
+    box-shadow: 0px 0.3rem 1.6rem rgba(0,0,0,0.3);
+    border-radius: 1rem;
+    overflow: hidden;
+    /* margin: 0.6rem; */
+    position: relative;
+}
+
+.foodDetailsSection{
+    padding: 0.3rem 1rem 1rem 1rem;
+    text-align: center;
+}
+
+.foodItem>img{
+    width: 100%;
+    height: 14rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+.itemName{
+    font-size: medium;
+    margin-bottom: 0.5rem;
+}
+
+.itemPrice{
+    width: fit-content;
+    padding: 0.3rem 0.8rem;
+    margin: 0px auto 0.5rem auto;
+    border-radius: 0.5rem;
+    font-size: small;
+    font-weight: bold;
+    color: var(--accent1);
+    background-color: rgba(249, 198, 68, 0.2);
+}
+
+.itemDescription{
+    font-size: x-small;
+    margin-bottom: 1.5rem;
+}
+
+.btnContainer{
+    width: 100%;
+    position: absolute;
+    bottom: 1.2rem;
+    text-align: center;
+}

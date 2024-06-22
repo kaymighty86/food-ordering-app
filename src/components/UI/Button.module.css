@@ -1,0 +1,43 @@
+button{
+    border: none;
+    border-radius: 0.3rem;
+    font-size: small;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+button:hover{
+    filter: brightness(90%);/*darken the button a bit*/
+}
+
+button:active{
+    filter: brightness(80%);/*darken the button a bit*/
+}
+
+button:disabled{
+    cursor: not-allowed;
+    background-color: gray;
+    opacity: 0.6;
+}
+
+button>:first-child{/*position the svg icon properly*/
+    vertical-align: bottom;
+}
+
+/**BUTTON TYPES**/
+.buttonFilled{
+    background-color: var(--accent1);
+    color: var(--accent2);
+}
+
+.buttonStroked{
+    background-color: transparent;
+    color: var(--accent1);
+    border: 1px solid var(--accent1);
+}
+
+.buttonTransparent{
+    background-color: transparent;
+    color: var(--accent1);
+}

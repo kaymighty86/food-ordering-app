@@ -1,0 +1,41 @@
+.cartItemsSection{
+    margin: 1.2rem 0px;
+}
+
+.defaultCartText{
+    margin: 1rem 0px;
+}
+
+.foodItem{
+    margin: 0.5rem 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+.qtyIncrementSection{
+    width: 7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: blue; */
+}
+
+.qtyIncrementSection button{
+    background-color: var(--accent2);
+    border: none;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 100%;
+    padding: 0px;
+    margin: 0px;
+    color: var(--accent1);
+    font-size: medium;
+}
+
+.qtyIncrementSection p{
+    font-size: medium;
+    font-weight: bold;
+}

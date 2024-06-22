@@ -1,0 +1,11 @@
+.availableMealsSection{
+    padding: 2rem 0px;
+    max-width: 60rem;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}

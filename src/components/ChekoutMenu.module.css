@@ -1,0 +1,33 @@
+form{
+    margin-bottom: 1rem;
+}
+
+.totalCost{
+    margin: 0.6rem 0px;
+}
+
+.inputWrapper_Block{
+    display: block;
+}
+
+.inputWrapper_Block>:first-child{
+    width: 18rem;
+}
+
+.loadingBG{
+    width: 100%;
+    min-height: 100svh;
+    background-color: rgba(0,0,0,0.6);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.alertMenu>:first-child{
+    margin-bottom: 1rem;
+}

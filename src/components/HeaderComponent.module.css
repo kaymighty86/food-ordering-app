@@ -1,0 +1,36 @@
+header{
+    display: flex;
+    position: sticky;
+    top: 0px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.4rem 2rem;
+    z-index: 1;
+}
+
+header.solid{
+    background-color: var(--muted);
+    box-shadow: 0px 0.2rem 0.3rem rgba(102, 102, 102, 0.2);
+}
+
+.appName{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.appName h1{
+    font-size: x-large;
+    color: var(--accent2);
+    margin: 0px 1rem;
+}
+.appName img{
+    width: 3rem;
+    height: auto;
+    border-radius: 1rem;
+    border: 2px solid var(--accent1);
+}
+
+/* .cartButton{
+    padding: 
+} */

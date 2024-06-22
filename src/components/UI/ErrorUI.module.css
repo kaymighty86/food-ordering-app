@@ -1,0 +1,19 @@
+.errorUI{
+    margin-top: 5rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid #ca2020;
+    border-radius: 1rem;
+    background-color: #f39f9f;
+    margin: 0px auto;
+}
+
+.errorUI h2{
+    font-size: medium;
+    color: #2e2828;
+}
+
+.errorUI p{
+    margin-top: 0.4rem;
+    font-size: small;
+    color: #2e2828;
+}
